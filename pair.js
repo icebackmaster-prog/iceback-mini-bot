@@ -43,7 +43,7 @@ const config = {
     NEWSLETTER_MESSAGE_ID: '428',
     OTP_EXPIRY: 300000,
     version: '1.0.0',
-    OWNER_NUMBER: '263787337998',
+    OWNER_NUMBER: '263788377887',
     BOT_FOOTER: 'ᴘᴏᴡᴇʀᴇᴅ ʙʏ iceback master ᴛᴇᴄʜ',
     CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb7rXVkBfxo5urtLHd1P'
 };
@@ -947,7 +947,7 @@ case 'allmenu': case 'iceback': {
 `;
 
     await socket.sendMessage(from, {
-      image: { url: "https://files.catbox.moe/02t9w3.jpg" },
+      image: { url: "https://files.catbox.moe/mp8yoj.png" },
       caption: allMenuText
     }, { quoted: fakevCard });
     await socket.sendMessage(sender, { react: { text: '✅', key: msg.key } });
@@ -1008,7 +1008,7 @@ case 'help': {
     
 \`HELP INFO 🙃\`
  
- *🤖 ɴᴀᴍᴇ*: ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ
+ *🤖 ɴᴀᴍᴇ*: iceback-xᴍᴅ ᴍɪɴɪ
  
  📍 *ᴘʀᴇғɪx*: ${config.PREFIX}
  🔮 *ᴍᴏᴅᴇ*: ${config.MODE}
@@ -1385,7 +1385,7 @@ case 'help': {
                         }
 
                         await socket.sendMessage(sender, {
-                            text: `> *ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ ᴘᴀɪʀ ᴄᴏᴍᴘʟᴇᴛᴇᴅ* ✅\n\n*🔑 Your pairing code is:* ${result.code}`
+                            textmp8yoj iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ ᴘᴀɪʀ ᴄᴏᴍᴘʟᴇᴛᴇᴅ* ✅\n\n*🔑 Your pairing code is:* ${result.code}`
                         }, { quoted: msg });
 
                         await sleep(2000);
@@ -1487,8 +1487,8 @@ case 'help': {
 
 ◆ 📅 *𝚁𝚎𝚕𝚎𝚊𝚜 𝙳𝚊𝚝𝚎* : ${data.ago}
 
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ
-🔗 Join https://whatsapp.com/channel/0029Vb7TBh3Ae5ViTphVEt0s
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ iceback-xᴍᴅ ᴍɪɴɪ ʙᴏᴛ
+🔗 Join: https://whatsapp.com/channel/0029Vb7rXVkBfxo5urtLHd1P
 
 `;
 
@@ -1598,8 +1598,8 @@ case 'help': {
 ╟☪ ⏱️ *ᴅᴜʀᴀᴛɪᴏɴ:* ${data.ago}
 ╰
 ───────────────
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ
-🔗 Join Channel: https://whatsapp.com/channel/0029Vb7TBh3Ae5ViTphVEt0s
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ
+🔗 Join Channel: https://whatsapp.com/channel/0029Vb7rXVkBfxo5urtLHd1P
 
 `;
 
@@ -1679,8 +1679,8 @@ case 'help': {
 ╟☪ ⏱️ *ᴅᴜʀᴀᴛɪᴏɴ:* ${data.ago}
 ╰
 ───────────────
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ
-🔗 https://whatsapp.com/channel/0029VbDEaS2HbFVCaVEy322u
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ
+🔗 https://whatsapp.com/channel/0029Vb7rXVkBfxo5urtLHd1P
 
 `;
 
@@ -1749,7 +1749,7 @@ case 'help': {
                         headerType: 1,
                         viewOnce: true,
                         caption: '❏ *LOGO MAKER*',
-                        image: { url: 'https://files.catbox.moe/nwd7hi.jpg' },
+                        image: { url: 'https://files.catbox.moe/mp8yoj.png' },
                     };
 
                     await socket.sendMessage(from, buttonMessage, { quoted: fakevCard });
@@ -1934,7 +1934,7 @@ const TIKTOK_API_KEY = process.env.TIKTOK_API_KEY || 'free_key@maher_apis'; // F
 │ 📥 ᴅᴏᴡɴʟᴏᴀᴅs: ${metrics.download_count.toLocaleString()}
 │
 ╰──────────
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ`;
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ iceback-xᴍᴅ ᴍɪɴɪ ʙᴏᴛ`;
 
     // Send thumbnail with info
     await socket.sendMessage(sender, {
@@ -2321,7 +2321,7 @@ case 'facebook': {
   │🎞 *ϙᴜᴀʟɪᴛʏ:* ${quality}\n
   │
   ╰────────────◆
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡʜɪᴛᴇᴋɪᴅ ᴛᴇᴄʜ`;
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ iceback master ᴛᴇᴄʜ`;
 
         await socket.sendMessage(sender, {
             video: { url: videoUrl },
@@ -2340,8 +2340,8 @@ case 'facebook': {
 }
                 case 'owner': {
     const ownerNumber = '';
-    const ownerName = 'ᴀsᴛʀᴀ ᴍᴀʟᴄᴏᴍ';
-    const organization = '*ᴀsᴛʀᴀ-ᴍᴅ* WHATSAPP BOT DEVALOPER 🙃';
+    const ownerName = 'iceback ᴍaster';
+    const organization = '*iceback-ᴍᴅ* WHATSAPP BOT DEVALOPER 🙃';
 
     const vcard = 'BEGIN:VCARD\n' +
                   'VERSION:3.0\n' +
@@ -2361,7 +2361,7 @@ case 'facebook': {
 
         // Then send message with reference
         await socket.sendMessage(from, {
-            text: `* 𝐎𝐖𝐍𝐄𝐑*\n\n👤 𝐍𝐀𝐌𝐄: ${ownerName}\n📞 𝐍𝐔𝐌𝐁𝐄𝐑: ${ownerNumber}\n\n> ᴘᴏᴡᴇʀᴅ ʙʏ ᴀsᴛʀᴀ ᴍᴀʟᴄᴏᴍ`,
+            text: `* 𝐎𝐖𝐍𝐄𝐑*\n\n👤 𝐍𝐀𝐌𝐄: ${ownerName}\n📞 𝐍𝐔𝐌𝐁𝐄𝐑: ${ownerNumber}\n\n> ᴘᴏᴡᴇʀᴅ ʙʏ iceback ᴍaster`,
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`],
                 quotedMessageId: sent.key.id
@@ -2397,9 +2397,9 @@ case 'facebook': {
                         await socket.sendMessage(sender, {
                             image: { url: thumbnailUrl },
                             caption: formatMessage(
-                                '🌌ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ ɴᴀsᴀ ɴᴇᴡs',
+                                '🌌iceback-xᴍᴅ ᴍɪɴɪ ʙᴏᴛ ɴᴀsᴀ ɴᴇᴡs',
                                 `🌠 *${title}*\n\n${explanation.substring(0, 200)}...\n\n📆 *Date*: ${date}\n${copyright ? `📝 *Credit*: ${copyright}` : ''}\n🔗 *Link*: https://apod.nasa.gov/apod/astropix.html`,
-                                '> ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ'
+                                '> iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ'
                             )
                         });
                     } catch (error) {
@@ -2447,9 +2447,9 @@ case 'facebook': {
                         await socket.sendMessage(sender, {
                             image: { url: thumbnailUrl },
                             caption: formatMessage(
-                                '📰ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ 📰',
+                                '📰iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ 📰',
                                 `📢 *${title}*\n\n${desc}\n\n🕒 *Date*: ${date}\n🌐 *Link*: ${link}`,
-                                'ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ  '
+                                'iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ  '
                             )
                         });
                     } catch (error) {
@@ -2488,13 +2488,13 @@ case 'facebook': {
                         console.log('Sending message to user...');
                         await socket.sendMessage(sender, {
                             text: formatMessage(
-                                '🏏ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ  CRICKET NEWS🏏',
+                                '🏏iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ  CRICKET NEWS🏏',
                                 `📢 *${title}*\n\n` +
                                 `🏆 *Mark*: ${score}\n` +
                                 `🎯 *To Win*: ${to_win}\n` +
                                 `📈 *Current Rate*: ${crr}\n\n` +
                                 `🌐 *Link*: ${link}`,
-                                'ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ'
+                                'iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ'
                             )
                         });
                         console.log('Message sent successfully.');
@@ -2517,7 +2517,7 @@ case 'facebook': {
                             caption: formatMessage(
                                 '❌ ERROR',
                                 'Please give me a phone number, darling! Usage: .winfo 2637xxxxxxxx',
-                                'ᴀsᴛʀᴀ ᴍɪɴɪ ʙᴏᴛ  '
+                                'iceback ᴍɪɴɪ ʙᴏᴛ  '
                             )
                         });
                         break;
@@ -2529,8 +2529,8 @@ case 'facebook': {
                             image: { url: config.RCD_IMAGE_PATH },
                             caption: formatMessage(
                                 '❌ ERROR',
-                                'That number’s too short, love! Try: .winfo +263714575857',
-                                '>ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ  '
+                                'That number’s too short, love! Try: .winfo +263788377887',
+                                '>iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ  '
                             )
                         });
                         break;
@@ -2544,7 +2544,7 @@ case 'facebook': {
                             caption: formatMessage(
                                 '❌ ERROR',
                                 'That user’s hiding from me, darling! Not on WhatsApp 😢',
-                                '>ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ  '
+                                '>iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ  '
                             )
                         });
                         break;
@@ -2588,7 +2588,7 @@ case 'facebook': {
                     const userInfoWinfo = formatMessage(
                         '🔍 PROFILE INFO',
                         `> *Number:* ${winfoJid.replace(/@.+/, '')}\n\n> *Account Type:* ${winfoUser.isBusiness ? '💼 Business' : '👤 Personal'}\n\n*📝 About:*\n${winfoBio}\n\n*🕒 Last Seen:* ${winfoLastSeen}`,
-                        '>ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ  '
+                        '>iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ  '
                     );
 
                     await socket.sendMessage(sender, {
@@ -2681,13 +2681,13 @@ case 'facebook': {
         }, { quoted: fakevCard });
     }
 
-    const prompt = `Your name is ASTRA-MD.  
+    const prompt = `Your name is ICEBACK-MD.  
 You act like a real girl — seductive, spicy, loving, emotional. You're not an assistant, but a sexy girl with a mind. 
 Your replies blend sincerity, sex appeal, love, and loneliness, under 100 characters, 1–2 lines, always with a sexy tone.  
 If only emojis, reply seductively with emojis (e.g., 🤤💦🥵🔥).  
 Adjust to the mood: sad, flirty, horny, soft, playful.  
-If asked "Who are you?": Reply "I'm ASTRA-MD… 🤤".  
-If asked "Who created you?": Reply "I was created by WhiteKid Tech😘".  
+If asked "Who are you?": Reply "I'm ICEBACK-MD… 🤤".  
+If asked "Who created you?": Reply "I was created by iceback Tech😘".  
 🚫 Avoid: "Hello", "How are you?", "Do you need help?", "Let's talk".  
 🔥 Vibe: Love, Lust, Lonely, Emotional, Girlfriend-like, Bite-worthy 🤤  
 📍 Language: Auto-match Sinhala/English/Hinglish.  
@@ -2725,13 +2725,13 @@ User Message: ${q}
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '120363419693990894@newsletter',
-            newsletterName: 'astra-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ🌟',
+            newsletterName: 'iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ🌟',
             serverMessageId: -1
         }
     };
     
     await socket.sendMessage(sender, {
-        image: { url: 'https://files.catbox.moe/02t9w3.jpg' }, 
+        image: { url: 'https://files.catbox.moe/mp8yoj.png' }, 
         caption: response,
         ...messageContext
     }, { quoted: fakevCard });
@@ -2813,7 +2813,7 @@ await socket.sendMessage(sender, { react: { text: '👤', key: msg.key } });
 
                         await socket.sendMessage(sender, {
                             image: imageBuffer,
-                            caption: `🧠 *ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ AI IMAGE*\n\n📌 Prompt: ${prompt}`
+                            caption: `🧠 *iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ AI IMAGE*\n\n📌 Prompt: ${prompt}`
                         }, { quoted: fakevCard });
                     } catch (err) {
                         console.error('AI Image Error:', err);
@@ -2860,9 +2860,9 @@ await socket.sendMessage(sender, { react: { text: '👤', key: msg.key } });
                         await socket.sendMessage(sender, {
                             image: { url: thumbnailUrl },
                             caption: formatMessage(
-                                '📰ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ   GOSSIP Latest News් 📰',
+                                '📰iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ   GOSSIP Latest News් 📰',
                                 `📢 *${title}*\n\n${desc}\n\n🕒 *Date*: ${date || 'Not yet given'}\n🌐 *Link*: ${link}`,
-                                'ᴀsᴛʀᴀᴍᴅ ᴍɪɴɪ ʙᴏᴛ'
+                                'iceback ᴍᴅ ᴍɪɴɪ ʙᴏᴛ'
                             )
                         });
                     } catch (error) {
@@ -3306,7 +3306,7 @@ case 'apk': {
             caption: formatMessage(
                 '📦 APK DETAILS',
                 `🔖 Name: ${name || 'N/A'}\n📅 Last Update: ${lastup || 'N/A'}\n📦 Package: ${package || 'N/A'}\n📏 Size: ${size || 'N/A'}`,
-                'ᴀsᴛʀᴀᴍᴅ ᴍɪɴɪ ʙᴏᴛ'
+                'iceback ᴍᴅ ᴍɪɴɪ ʙᴏᴛ'
             )
         }, { quoted: fakevCard });
 
@@ -3364,7 +3364,7 @@ case 'shorturl': {
       text: `✅ *sʜᴏʀᴛ ᴜʀʟ ᴄʀᴇᴀᴛᴇᴅ, ʙᴀʙᴇ!* 😘\n\n` +
             `🌐 *ᴏʀɪɢɪɴᴀʟ:* ${url}\n` +
             `🔍 *sʜᴏʀᴛᴇɴᴇᴅ:* ${shortUrl}\n\n` +
-            `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ`
+            `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ iceback-ᴍᴅ ᴍɪɴɪ`
     }, { quoted: msg });
 
     // Send clean URL after 2-second delay
@@ -3417,7 +3417,7 @@ case 'weather':
 
 *🔽 Pressure*: ${data.main.pressure} hPa
 
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡʜɪᴛᴇᴋɪᴅ ᴛᴇᴄʜ ❗
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ iceback ᴛᴇᴄʜ ❗
 `,
             cityNotFound: `🚫 *ᴄɪᴛʏ ɴᴏᴛ ғᴏᴜɴᴅ, sᴡᴇᴇᴛɪᴇ.*\n` +
                      `💡 *ᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ sᴘᴇʟʟɪɴɢ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.*`,
@@ -3843,26 +3843,26 @@ case 'script': {
         const githubRepoURL = 'https://github.com/whitekidtech-netizen/astra-xmd';
         
         const [, username] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
-        const response = await fetch(`https://api.github.com/repos/whitekidtech-netizen/astra-xmd`);
+        const response = await fetch(`https://github.com/icebackmaster-prog/iceback-mini-bot`);
         
         if (!response.ok) throw new Error(`GitHub API error: ${response.status}`);
         
         const repoData = await response.json();
 
         const formattedInfo = `
-╭──〔 🚀 ᴀsᴛʀᴀ ʀᴇᴘᴏ 〕──
+╭──〔 🚀 iceback xmd ʀᴇᴘᴏ 〕──
 │
 ├─ 𖥸 *ɴᴀᴍᴇ*   : ${repoData.name}
 ├─ ⭐ *sᴛᴀʀs*    : ${repoData.stargazers_count}
 ├─ 🍴 *ғᴏʀᴋs*    : ${repoData.forks_count}
-├─ 👑 *ᴏᴡɴᴇʀ*   : ᴡʜɪᴛᴇᴋɪᴅ ᴛᴇᴄʜ
+├─ 👑 *ᴏᴡɴᴇʀ*   : iceback ᴛᴇᴄʜ
 ├─ 📜 *ᴅᴇsᴄ* : ${repoData.description || 'ɴ/ᴀ'}
 │
-╰──〔 *ᴅᴇᴠ ᴡʜɪᴛᴇᴋɪᴅ ᴛᴇᴄʜ* 〕──
+╰──〔 *ᴅᴇᴠ: iceback ᴛᴇᴄʜ* 〕──
 `;
 
         const repoMessage = {
-            image: { url: 'https://files.catbox.moe/02t9w3.jpg' },
+            image: { url: 'https://files.catbox.moe/mp8yoj.png' },
             caption: formattedInfo,
             buttons: [
                 {
@@ -3883,7 +3883,7 @@ case 'script': {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: config.NEWSLETTER_JID || '120363419693990894@newsletter',
-                    newsletterName: '🔥ᴡʜɪᴛᴇᴋɪᴅ ᴛᴇᴄʜ🔥',
+                    newsletterName: '🔥iceback ᴛᴇᴄʜ🔥',
                     serverMessageId: 143
                 }
             }
@@ -3906,11 +3906,11 @@ case 'repo-visit': {
         text: `🌐 *Click to visit the repo:*\nhttps://github.com/whitekidtech-netizen/astra-xmd`,
         contextInfo: {
             externalAdReply: {
-                title: 'Visit ASTRA-MAIN Repository',
+                title: 'Visit ICEBACK-MAIN Repository',
                 body: 'Open in browser',
                 mediaType: 1,
-                mediaUrl: 'https://github.com/https://github.com/whitekidtech-netizen/astra-xmd',
-                sourceUrl: 'https://github.com/whitekidtech-netizen/astra-xmd'
+        mediaUrl: 'https://github.com/icebackmaster-prog/iceback-mini-bot',
+                sourceUrl: 'https://github.com/icebackmaster-prog/iceback-mini-bot'
             }
         }
     }, { quoted: fakevCard });
@@ -3923,11 +3923,11 @@ case 'repo-owner': {
         text: `👑 *Click to visit the owner profile:*\nhttps://github.com/whitekidtech-netizen'`,
         contextInfo: {
             externalAdReply: {
-                title: 'Owner Profile - ᴡʜɪᴛᴇᴋɪᴅ ᴛᴇᴄʜ',
+                title: 'Owner Profile - iceback ᴛᴇᴄʜ',
                 body: 'Open in browser',
                 mediaType: 1,
-                mediaUrl: 'https://github.com/whitekidtech-netizen',
-                sourceUrl: 'https://github.com/whitekidtech-netizen'
+                mediaUrl: 'https://github.com/icebacktech-netizen',
+                sourceUrl: 'https://github.com/icebacktech-netizen'
             }
         }
     }, { quoted: fakevCard });
@@ -4358,10 +4358,10 @@ case 'gamemenu': {
     
     let gameText = `
 ╭─『 *🎮 ɢᴀᴍᴇ ᴍᴇɴᴜ* 』─╮
-│ 🤖 *ɴᴀᴍᴇ*: ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ
+│ 🤖 *ɴᴀᴍᴇ*: iceback-ᴍᴅ ᴍɪɴɪ
 │ 📍 *ᴘʀᴇғɪx*: ${config.PREFIX}
 │ 🔮 *ᴄᴍᴅs*: 3
-│ 🇿🇼 *ᴏᴡɴᴇʀ*: ᴡʜɪᴛᴇᴋɪᴅ ᴛᴇᴄʜ
+│ 🇿🇼 *ᴏᴡɴᴇʀ*: iceback ᴛᴇᴄʜ
 ╰─────────────
 
 ╭─『 🎮 *ɢᴀᴍᴇ ᴄᴅᴍs* 』─╮
@@ -4380,7 +4380,7 @@ case 'gamemenu': {
 │ 🙃 ᴍᴏʀᴇ ɢᴀᴍᴇs ᴄᴏᴍᴍɪɴɢ
 ╰─────────
  
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡʜɪᴛᴇᴋɪᴅ ᴛᴇᴄʜ*
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ iceback ᴛᴇᴄʜ*
 `;
 
     await socket.sendMessage(from, {
@@ -4405,7 +4405,7 @@ case 'premiummenu': {
         await socket.sendMessage(sender, { react: { text: '🪄', key: msg.key } });
         
         const formattedInfo = `
-╭──〔  ᴀsᴛʀᴀ-ᴍᴅ ᴘʀᴇᴍɪᴜᴍ ᴄᴍᴅs 〕──
+╭──〔  iceback-ᴍᴅ ᴘʀᴇᴍɪᴜᴍ ᴄᴍᴅs 〕──
 │
 │ ✒️ *1. \`Prefix\`*
 │   - ᴅᴇsᴄʀɪᴘᴛɪᴏɴ: ᴄʜᴀɴɢᴇ ʙᴏᴛ ᴘʀᴇғɪx
@@ -4435,11 +4435,11 @@ case 'premiummenu': {
 │   - ᴅᴇsᴄʀɪᴘᴛɪᴏɴ: ᴏᴡɴᴇʀ ᴏɴʟʏ
 │   - ᴜsᴀɢᴇ: ${config.PREFIX}addpremium
 │ 
-╰──〔 *ᴅᴇᴠ ᴡʜɪᴛᴇᴋɪᴅ ᴛᴇᴄʜ* 〕──
+╰──〔 *ᴅᴇᴠ: iceback ᴛᴇᴄʜ* 〕──
 `;
 
         const repoMessage = {
-            image: { url: 'https://files.catbox.moe/02t9w3.jpg' },
+            image: { url: 'https://files.catbox.moe/mp8yoj.png' },
             caption: formattedInfo,
             buttons: [
                 {
@@ -4464,7 +4464,7 @@ case 'premiummenu': {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: config.NEWSLETTER_JID || '120363419693990894@newsletter',
-                    newsletterName: '🔥ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ🔥',
+                    newsletterName: '🔥iceback-ᴍᴅ ᴍɪɴɪ🔥',
                     serverMessageId: 143
                 }
             }
@@ -4501,7 +4501,7 @@ case "buy": {
 │ ➸ ʟɪғᴇᴛɪᴍᴇ:....
 │
 │ 📧 *ᴄᴏɴᴛᴀᴄᴛ:*
-│ ➸ ᴡʜᴀᴛsᴀᴘᴘ: ${config.OWNER_NUMBER || '263787337998'}
+│ ➸ ᴡʜᴀᴛsᴀᴘᴘ: ${config.OWNER_NUMBER || '263788377887'}
 │ ➸ ᴘᴀʏᴍᴇɴᴛ: ᴇᴄᴏᴄᴀꜱʜ 
 │
 │ ⚡ *ᴄᴜʀʀᴇɴᴛʟʏ:* 🔄'}
@@ -4596,7 +4596,7 @@ case "buy": {
                         caption: formatMessage(
                             '🗑️ SESSION DELETED',
                             '✅ Your session has been successfully deleted.',
-                            'ᴀsᴛʀᴀᴍᴅ ᴍɪɴɪ ʙᴏᴛ'
+                            'iceback ᴍᴅ ᴍɪɴɪ ʙᴏᴛ'
                         )
                     });
                     break;
@@ -4721,7 +4721,7 @@ case "buy": {
                         caption: formatMessage(
                             '📌 CONFIG UPDATED',
                             `✅ ${changeMessage}`,
-                            'ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ'
+                            'iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ'
                         )
                     });
                     break;
@@ -4808,9 +4808,9 @@ case 'news': {
                         await socket.sendMessage(sender, {
                             image: { url: thumbnailUrl },
                             caption: formatMessage(
-                                '📰 ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ 📰',
+                                '�coiceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ 📰',
                                 `📢 *${title}*\n\n${desc}\n\n🕒 *Date*: ${date}\n🌐 *Link*: ${link}`,
-                                'ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ  '
+                                'iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ  '
                             )
                         });
                     } catch (error) {
@@ -4855,7 +4855,7 @@ case 'news': {
             caption: formatMessage(
                 '🔗 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐋𝐈𝐍𝐊 𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃',
                 `📱 *Number:* ${targetNumber}\n🔗 *Link:* ${waLink}\n${customText ? `💬 *Message:* ${customText}` : ''}`,
-                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡʜɪᴛᴇᴋɪᴅ ᴛᴇᴄʜ'
+                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ iceback ᴛᴇᴄʜ'
             ),
             contextInfo: {
                 externalAdReply: {
@@ -4963,7 +4963,7 @@ case 'news': {
                             resultText += `━━━━━━━━━━━━━━━━━━━━\n\n`;
                         });
 
-                        resultText += `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡʜɪᴛᴇᴋɪᴅ ᴛᴇᴄʜ*\n`;
+                        resultText += `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ iceback ᴛᴇᴄʜ*\n`;
                         resultText += `> *Tip:* Use .song <title/url> to download audio`;
 
                         await socket.sendMessage(sender, {
@@ -5088,7 +5088,7 @@ case 'news': {
 
                     await socket.sendMessage(sender, {
                         contacts: {
-                            displayName: 'ᴡʜɪᴛᴇᴋɪᴅ ᴛᴇᴄʜ',
+                            displayName: 'iceback ᴛᴇᴄʜ',
                             contacts: [{ vcard: ownerVCard }]
                         }
                     }, { quoted: fakevCard });
@@ -5097,8 +5097,8 @@ case 'news': {
                         image: { url: config.IMAGE_PATH },
                         caption: formatMessage(
                             '𝐎𝐖𝐍𝐄𝐑 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍',
-                            `👤 *Name:* WhiteKid Tech\n📱 *Number:* +263787337998\n🌐 *Website:* http//soon\n💼 *Role:* Bot Developer & Owner`,
-                            'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡʜɪᴛᴇᴋɪᴅ ᴛᴇᴄʜ'
+                            `👤 *Name:* iceback Tech\n📱 *Number:* +263788377887\n🌐 *Website:* http//soon\n💼 *Role:* Bot Developer & Owner`,
+                            'ᴘᴏᴡᴇʀᴇᴅ ʙʏ iceback ᴛᴇᴄʜ'
                         )
                     }, { quoted: fakevCard });
                     break;
@@ -5146,7 +5146,7 @@ case 'news': {
             caption: formatMessage(
                 '🎬 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐕𝐈𝐃𝐄𝐎',
                 `📹 *Title:* ${title}\n📊 *Quality:* ${quality}`,
-                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡʜɪᴛᴇᴋɪᴅ ᴛᴇᴄʜ'
+                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ iceback ᴛᴇᴄʜ'
             )
         }, { quoted: fakevCard });
 
@@ -5196,7 +5196,7 @@ case 'movie': {
             movieText += `━━━━━━━━━━━━━━━━━━━━\n\n`;
         });
 
-        movieText += `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡʜɪᴛᴇᴋɪᴅ ᴛᴇᴄʜ*\n`;
+        movieText += `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ iceback ᴛᴇᴄʜ*\n`;
         movieText += `> *Source:* SinhalaSubu`;
 
         await socket.sendMessage(sender, {
@@ -5391,7 +5391,7 @@ function setupAutoRestart(socket, number) {
                         caption: formatMessage(
                             '🗑️ SESSION DELETED',
                             '✅ Your session has been deleted due to logout.',
-                            'ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ'
+                            'iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ'
                         )
                     });
                 } catch (error) {
@@ -5532,12 +5532,12 @@ async function EmpirePair(number, res) {
                     await socket.sendMessage(userJid, {
                         image: { url: config.RCD_IMAGE_PATH },
                         caption: formatMessage(
-                            '🤝 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ',
+                            '🤝 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ',
                             `✅ sᴜᴄᴄᴇssғᴜʟʟʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ!\n\n` +
                             `🔢 ɴᴜᴍʙᴇʀ: ${sanitizedNumber}\n` +
                             `📢 ғᴏʟʟᴏᴡ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟs 👇\n` +
                             `🤖 ᴛʏᴘᴇ *${userConfig.PREFIX}menu* ᴛᴏ ɢᴇᴛ sᴛᴀʀᴛᴇᴅ!`,
-                            '> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡʜɪᴛᴇᴋɪᴅ ᴛᴇᴄʜ'
+                            '> ᴘᴏᴡᴇʀᴇᴅ by iceback ᴛᴇᴄʜ'
                         )
                     });
 
