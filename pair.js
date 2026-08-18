@@ -3277,7 +3277,7 @@ case 'apk': {
             caption: formatMessage(
                 '📦 DOWNLOADING APK',
                 `Downloading ${name}... Please wait.`,
-                'ᴀsᴛʀᴀ-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ'
+                'iceback-ᴍᴅ ᴍɪɴɪ ʙᴏᴛ'
             )
         }, { quoted: fakevCard });
 
@@ -3306,7 +3306,7 @@ case 'apk': {
             caption: formatMessage(
                 '📦 APK DETAILS',
                 `🔖 Name: ${name || 'N/A'}\n📅 Last Update: ${lastup || 'N/A'}\n📦 Package: ${package || 'N/A'}\n📏 Size: ${size || 'N/A'}`,
-                'ᴀsᴛʀᴀᴍᴅ ᴍɪɴɪ ʙᴏᴛ'
+                'iceback ᴍᴅ ᴍɪɴɪ ʙᴏᴛ'
             )
         }, { quoted: fakevCard });
 
@@ -3417,7 +3417,7 @@ case 'weather':
 
 *🔽 Pressure*: ${data.main.pressure} hPa
 
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡʜɪᴛᴇᴋɪᴅ ᴛᴇᴄʜ ❗
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ iceback ᴛᴇᴄʜ ❗
 `,
             cityNotFound: `🚫 *ᴄɪᴛʏ ɴᴏᴛ ғᴏᴜɴᴅ, sᴡᴇᴇᴛɪᴇ.*\n` +
                      `💡 *ᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ sᴘᴇʟʟɪɴɢ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.*`,
